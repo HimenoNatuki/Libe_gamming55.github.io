@@ -1,3 +1,7 @@
+body{
+  background-image: url(image/ダウンロード.jpeg);
+}
+
 .welcome_text{
   color: red;
 }
