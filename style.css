@@ -5,3 +5,8 @@ body{
 .welcome_text{
   color: red;
 }
+
+#osuna{
+    width: 100px;
+    height: 100px;
+}
