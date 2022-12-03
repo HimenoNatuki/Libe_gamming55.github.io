@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet" />
-  <title>Libe_homepage</title>
-</head>
+  <head>
+    <link rel="shortcut icon" href="image/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Libe_homepage</title>
+  </head>
 
-<body>
-  <h1 class="welcome_text">Welcome to my page!</h1>
-  <input id="osuna" type="button" value="osuna" onclick="push_button()">
-  <script src="script.js"></script>
-</body>
+  <body>
+    <h1 class="welcome_text">Welcome to my page!</h1>
+    <audio id="bgm1" preload loop>
+      <source src="js/Audio/Weight of the World.mp3" type="audio/mp3">
+    </audio>
+    <input id="nowtime_kakunin" type="button" value="nowtime" onclick="push_button()">
+    <button id="btn-play" type="button"><i class="fas fa-play">再生</i></button>
+    <script src="js/script.js"></script>
+  </body>
+
 </html>
