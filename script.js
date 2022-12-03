@@ -1,2 +1,3 @@
-push_buttom(){
-  alert("(`A´)");
+function push_button() {
+  alert('push button!');
+}
