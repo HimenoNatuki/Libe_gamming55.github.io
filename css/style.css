@@ -1,22 +1,27 @@
-body{
+body {
   background-image: url(image/ダウンロード.jpeg);
 }
 
-.welcome_text{
+.welcome_text {
   color: red;
 }
 
-#nowtime_kakunin{
-    border-color: white;
-    border-radius: 10px;
-    width: 100px;
-    height: 50px;
+#nowtime_kakunin {
+  background: #00fa9a;
+  border-color: #00fa9a;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
 }
 
-#btn-play{
-  border-color: white;
+#btn-play {
+  background: #00fa9a;
+  border-color: #00fa9a;
   color: black;
   border-radius: 10px;
   width: 100px;
   height: 50px;
+}
+#youtube_link{
+  
 }
