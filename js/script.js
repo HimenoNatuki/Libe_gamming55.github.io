@@ -17,6 +17,9 @@ function push_button() {
   document.location.href = "templates/nowtime/nowtime.html";
 }
 
-function cookie_tests(){
+function cookie_tests() {
   document.cookie = "aaa"
+}
+function camera_redirectd_(){
+  document.location.href="templates/testcamera/index.html"
 }

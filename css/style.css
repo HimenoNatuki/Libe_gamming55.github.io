@@ -6,6 +6,14 @@ body {
   color: red;
 }
 
+#cameratest {
+  background: #00fa9a;
+  border-color: #00fa9a;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+
 #nowtime_kakunin {
   background: #00fa9a;
   border-color: #00fa9a;
@@ -23,7 +31,7 @@ body {
   height: 50px;
 }
 
-#cookie_test{
+#cookie_test {
   background: #00fa9a;
   border-color: #00fa9a;
   color: black;
@@ -32,6 +40,6 @@ body {
   height: 50px;
 }
 
-#youtube_link{
+#youtube_link {
   color: #00fa9a;
 }
