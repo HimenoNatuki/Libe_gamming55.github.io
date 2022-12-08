@@ -1,0 +1,16 @@
+body {
+    background-color: gray;
+}
+
+#welcome_text {
+    color: red;
+}
+
+
+#backpage {
+    background: #00fa9a;
+    border-color: #00fa9a;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}

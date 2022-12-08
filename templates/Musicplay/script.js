@@ -1,0 +1,3 @@
+function backpages() {
+    history.back();
+}

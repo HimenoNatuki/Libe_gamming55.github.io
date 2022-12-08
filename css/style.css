@@ -6,6 +6,14 @@ body {
   color: red;
 }
 
+#music_page{
+  background: #00fa9a;
+  border-color: #00fa9a;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+
 #cameratest {
   background: #00fa9a;
   border-color: #00fa9a;

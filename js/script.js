@@ -20,6 +20,7 @@ function push_button() {
 function cookie_tests() {
   document.cookie = "aaa"
 }
-function camera_redirectd_(){
-  document.location.href="templates/testcamera/index.html"
+
+function music_play() {
+  document.location.href = "templates/Musicplay/index.html"
 }
