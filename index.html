@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-  <link rel="shortcut icon" href="image/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="image/favicon.ico">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/style.css" rel="stylesheet" />
-  <title>Libe_homepage</title>
-</head>
+  <head>
+    <link rel="shortcut icon" href="image/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Libe_homepage</title>
+  </head>
 
-<body>
-  <h1 id="welcome_text">Welcome to my page!</h1>
-  <h2 id="youtube_link"><a href="https://www.youtube.com/channel/UCcMKCZDhJuiIXb4PrH1NsfQ">公式youtube</a></h2>
-  <audio id="bgm1" preload loop>
-    <source src="js/Audio/Weight of the World.mp3" type="audio/mp3">
-  </audio>
-  <input id="music_page" type="button" value="Music_play" onclick="music_play()">
-  <input id="nowtime_kakunin" type="button" value="nowtime" onclick="push_button()">
-  <button id="btn-play" type="button"><i class="fas fa-play">再生</i></button>
-  <input id="cookie_test" type="button" value="テスト" onclick="cookie_tests()">
-  <script src="js/script.js"></script>
-</body>
+  <body>
+    <div id="group1">
+      <h2 id="text2" onclick="homeback()">Libeホームページ</h2>
+    </div>
+    <h1 id="welcome_text" ondblclick="gate()">Welcome to my page!</h1>
+    <h2 id="youtube_link"><a href="https://www.youtube.com/channel/UCcMKCZDhJuiIXb4PrH1NsfQ">公式youtube</a></h2>
+    <audio id="bgm1" preload loop>
+      <source src="js/Audio/Weight of the World.mp3" type="audio/mp3">
+    </audio>
+    <input id="music_page" type="button" value="Music_play" onclick="music_play()">
+    <input id="nowtime_kakunin" type="button" value="nowtime" onclick="push_button()">
+    <input id="cookie_test" type="button" value="テスト" onclick="cookie_tests()">
+    <script src="js/script.js"></script>
+  </body>
 
 </html>

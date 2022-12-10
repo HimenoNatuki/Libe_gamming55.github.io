@@ -1,12 +1,18 @@
 body {
-  background-image: url(image/ダウンロード.jpeg);
+  background-color: #1F1F1F;
 }
 
 #welcome_text {
-  color: red;
+  user-select: none;
+  color: #1de9b6;
 }
 
-#music_page{
+#text2 {
+  color: #1de9b6;
+  user-select: none;
+}
+
+#music_page {
   background: #00fa9a;
   border-color: #00fa9a;
   border-radius: 10px;
