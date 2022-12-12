@@ -103,7 +103,7 @@ try:
         try:
             tkinter.Tk().withdraw()
             filename = simpledialog.askstring("filename", "ファイル名を入力してください")
-            filename = "image/" + filename
+            filename = "image2/" + filename
             os.makedirs(filename)
             install_image(elems=elems, filename=filename)
         except TypeError:
